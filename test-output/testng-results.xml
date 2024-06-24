@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-27T00:10:27 GMT-07:00" name="Suite" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="206">
+    <groups>
+      <group name="smoke">
+        <method signature="Basic.Demo()[pri:0, instance:test.Basic@76c3e77a]" name="Demo" class="test.Basic"/>
+        <method signature="Demo3.WebApicarloan()[pri:0, instance:test.Demo3@5b03b9fe]" name="WebApicarloan" class="test.Demo3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-05-27T00:10:27 GMT-07:00" name="Test" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="96">
+      <class name="test.Basic">
+        <test-method signature="Demo()[pri:0, instance:test.Basic@76c3e77a]" started-at="2024-05-27T00:10:27 GMT-07:00" name="Demo" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="second()[pri:0, instance:test.Basic@76c3e77a]" started-at="2024-05-27T00:10:27 GMT-07:00" name="second" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+      </class> <!-- test.Basic -->
+    </test> <!-- Test -->
+    <test started-at="2024-05-27T00:10:27 GMT-07:00" name="Car Loan" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="206">
+      <class name="test.Demo4">
+        <test-method signature="MobileHomelogin()[pri:0, instance:test.Demo4@6e0f5f7f]" started-at="2024-05-27T00:10:27 GMT-07:00" name="MobileHomelogin" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileHomelogin -->
+        <test-method signature="WebApiHomeloan()[pri:0, instance:test.Demo4@6e0f5f7f]" started-at="2024-05-27T00:10:27 GMT-07:00" name="WebApiHomeloan" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebApiHomeloan -->
+        <test-method signature="WebloginHomeLoan()[pri:0, instance:test.Demo4@6e0f5f7f]" started-at="2024-05-27T00:10:27 GMT-07:00" name="WebloginHomeLoan" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+        <test-method is-config="true" signature="third()[pri:0, instance:test.Demo4@6e0f5f7f]" started-at="2024-05-27T00:10:27 GMT-07:00" name="third" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third -->
+      </class> <!-- test.Demo4 -->
+      <class name="test.Demo3">
+        <test-method is-config="true" signature="prerequestssss()[pri:0, instance:test.Demo3@5b03b9fe]" started-at="2024-05-27T00:10:27 GMT-07:00" name="prerequestssss" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequestssss -->
+        <test-method is-config="true" signature="prerequest()[pri:0, instance:test.Demo3@5b03b9fe]" started-at="2024-05-27T00:10:27 GMT-07:00" name="prerequest" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequest -->
+        <test-method is-config="true" signature="BeforeClasss()[pri:0, instance:test.Demo3@5b03b9fe]" started-at="2024-05-27T00:10:27 GMT-07:00" name="BeforeClasss" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClasss -->
+        <test-method is-config="true" signature="prerequestmethod()[pri:0, instance:test.Demo3@5b03b9fe]" started-at="2024-05-27T00:10:27 GMT-07:00" name="prerequestmethod" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequestmethod -->
+        <test-method signature="MobileCarlogin()[pri:0, instance:test.Demo3@5b03b9fe]" started-at="2024-05-27T00:10:27 GMT-07:00" name="MobileCarlogin" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileCarlogin -->
+        <test-method is-config="true" signature="prerequestmethod()[pri:0, instance:test.Demo3@5b03b9fe]" started-at="2024-05-27T00:10:27 GMT-07:00" name="prerequestmethod" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequestmethod -->
+        <test-method signature="WebApicarloan()[pri:0, instance:test.Demo3@5b03b9fe]" started-at="2024-05-27T00:10:27 GMT-07:00" name="WebApicarloan" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebApicarloan -->
+        <test-method is-config="true" signature="prerequestmethod()[pri:0, instance:test.Demo3@5b03b9fe]" started-at="2024-05-27T00:10:27 GMT-07:00" name="prerequestmethod" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequestmethod -->
+        <test-method signature="WebloginCarLoan()[pri:0, instance:test.Demo3@5b03b9fe]" started-at="2024-05-27T00:10:27 GMT-07:00" name="WebloginCarLoan" finished-at="2024-05-27T00:10:27 GMT-07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarLoan -->
+      </class> <!-- test.Demo3 -->
+      <class name="test.Basic">
+        <test-method is-config="true" signature="prerequestSuite()[pri:0, instance:test.Basic@76c3e77a]" started-at="2024-05-27T00:10:28 GMT-07:00" name="prerequestSuite" finished-at="2024-05-27T00:10:28 GMT-07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequestSuite -->
+      </class> <!-- test.Basic -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Suite -->
+</testng-results>
